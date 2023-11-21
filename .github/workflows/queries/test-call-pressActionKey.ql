@@ -28,7 +28,7 @@ predicate calls(Function caller, Function callee) {
   )
 }
 
-predicate funkyName(Function funk, String name) {
+predicate funkyName(Function funk, string name) {
   funk.getName() = name
 }
 
