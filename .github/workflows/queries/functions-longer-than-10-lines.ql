@@ -1,3 +1,9 @@
+/**
+ * @description Find functions that are long af
+ * @kind problem
+ * @id javascript/functions-longer-than-10-lines
+ * @problem.severity recommendation
+ */
 import javascript
 
 predicate longAf(Function funk) {
