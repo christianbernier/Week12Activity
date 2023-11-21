@@ -36,4 +36,4 @@ from Function test, Function callee
 where isTest(test) and
       calls(test, callee) and
       funkyName(callee, "pressActionKey")
-select callee, "calls pressActionKey"
+select test, "calls pressActionKey"
