@@ -1,5 +1,9 @@
 import javascript
 
+predicate longAf(Function funk) {
+  getNumLines(funk) > 10
+}
+
 from Function funky
-where getNumLines(funky) > 10
+where longAf(funky)
 select funky, "is long af"
